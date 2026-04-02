@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Texture Files">
+      <UniqueIdentifier>{ce437d97-df68-4ac6-a3c9-fee40bccb8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Files\Font1">
+      <UniqueIdentifier>{446b5227-1e6d-4fa2-81b5-c3d665219fff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraMaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraMaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Game engine.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pictures\Saved Pictures\grass.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pictures\Saved Pictures\HELLO.png">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\MainPage.png">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\gameLogo.png">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\stone.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\dirt.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\darkStone.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\MainPage.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\gameLogo.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\Button.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\Button - hover.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\Z.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\Y.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\X.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\W.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\V.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\U.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\T.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\S.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\R.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\Q.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\P.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\O.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\N.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\M.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\L.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\K.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\J.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\I.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\H.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\G.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\F.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\A.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\B.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\C.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\D.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Alphabet\E.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\empty.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\0.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\1.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\2.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\3.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\4.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\5.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\6.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\7.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\8.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\Font1\9.bmp">
+      <Filter>Texture Files\Font1</Filter>
+    </Image>
+    <Image Include="Texture files\leaves.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\bark.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\inventory.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\crosshair.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\HPbar.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\HPfull.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\HPpot.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\rocketLauncher.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\metal1.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\iconHolder.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\handgun.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\yellow.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\red.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\black.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\sliderContainer.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="Texture files\slider.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
